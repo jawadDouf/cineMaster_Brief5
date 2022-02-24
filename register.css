@@ -1,9 +1,0 @@
-body {
-  margin: 0;
-  padding: 0;
-  height: 100vh;
-  width: 100vw;
-  background-color: aqua;
-  background: linear-gradient(135deg, rgba(13, 12, 12, 0.65), rgba(66, 66, 66, 0.65)), url("pictures/interstellar.jpg") no-repeat center center/cover;
-}
-/* styling the container */
