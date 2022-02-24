@@ -1,0 +1,63 @@
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: #202020;
+  width: 100vw;
+  height: 100vh;
+}
+
+nav .login {
+  background: #b70000;
+  color: white;
+  border-radius: 13px;
+  font-size: 13px;
+}
+
+nav .register {
+  background: black !important;
+  border: 2px solid #b70000;
+  color: white;
+  border-radius: 13px;
+  font-size: 13px;
+}
+
+nav .register:hover {
+  background-color: #b70000 !important;
+  color: white;
+}
+
+.post {
+  width: 40%;
+  border-radius: 5px;
+}
+
+.post .post_titles p {
+  font-size: 13px;
+  position: relative;
+  bottom: 12px;
+  color: #606060;
+}
+
+.add-btn {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 80px;
+  padding-bottom: 10px;
+}
+
+button {
+  background: #b70000 !important;
+  font-size: 15px;
+}
+
+@media (max-width: 700px) {
+  .post {
+    width: 80%;
+  }
+  .add-btn {
+    width: 80%;
+  }
+}
+/*# sourceMappingURL=posts.css.map */

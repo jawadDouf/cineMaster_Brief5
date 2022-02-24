@@ -1,0 +1,75 @@
+@import "variables";
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background : linear-gradient(70deg,$gradiantFirstColor,$gradiantFirstColor,$gradiantSecondColor),
+                   url("../img/the-iron-giante.jpg") no-repeat center center / cover;
+}
+//Styling The navBar
+nav{
+button{
+        background: $primaryColor;
+        font-size: 15px;
+    }
+.login{
+    background: $primaryColor;
+    color: $textColor1;
+    border-radius: 13px;
+    font-size: 12px;
+    
+        }
+
+
+    }
+//Styling The Form
+.container{
+    width:33%;
+    position:absolute;
+    top: 25%; 
+    left: 5%;
+  }
+.formTitles{
+p{
+       color:$textColor1;
+       font-size: 15px;
+   }
+h3{
+    color:$textColor1;
+    font-size: 30px;
+            }
+#point{
+    color: $primaryColor;
+    font-size: larger;
+}
+}
+.form{
+.form_elem{
+        margin: 7px;
+        padding: 6px 10px;
+        border-radius: 7px;
+        border: none;
+    }
+button{
+        background: $primaryColor;
+    }
+    }
+
+footer{
+        position: absolute;
+        z-index: 11;
+        top: 96%;
+        left: 35%;
+    }
+//Madia query
+@media (max-width:700px) {
+.container{
+        width:50%;
+        position:absolute;
+        top: 20%;
+        left: 5%;
+      }
+}
+
+

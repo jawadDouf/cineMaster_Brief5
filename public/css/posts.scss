@@ -1,0 +1,67 @@
+@import "variables";
+
+body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: $backgroundColor1;
+    width:100vw;
+    height: 100vh;
+}
+
+nav{
+
+.login{
+      background: $primaryColor;
+      color: $textColor1;
+      border-radius: 13px;
+      font-size: 13px;
+            
+                }
+.register{
+        background: $secondarycolor !important;
+        border: 2px solid $primaryColor;
+        color: $textColor1;
+        border-radius: 13px;
+        font-size: 13px;
+        &:hover{
+            background-color: $primaryColor !important;
+            color: $textColor1;
+        }
+    }
+        
+    }
+.post{
+width: 40%;
+border-radius: 5px;
+.post_titles{
+p{
+    font-size: 13px;
+    position: relative;
+    bottom: 12px;
+    color: $textColor3;
+    
+   
+}    
+}
+}
+.add-btn{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+    padding-bottom: 10px;
+}
+button{
+    background: $primaryColor !important;
+    font-size: 15px;
+           }
+@media (max-width:700px){
+.post{
+     width: 80%;
+ }
+ .add-btn{
+    width: 80%;
+    
+}   
+}

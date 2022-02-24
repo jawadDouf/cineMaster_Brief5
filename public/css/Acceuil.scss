@@ -1,0 +1,124 @@
+@import "variables";
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+.overlay{
+    overflow-y: hidden;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    z-index:2;
+    background-color: hsla(0, 0%, 0%,0.7);
+
+}
+//Styling The navBar
+nav{
+button{
+            background: $primaryColor;
+            font-size: 15px;
+        }
+.login{
+        background: $primaryColor;
+        color: $textColor1;
+        border-radius: 13px;
+        font-size: 13px;
+        
+            }
+.register{
+    background: $secondarycolor;
+    border: 2px solid $primaryColor;
+    color: $textColor1;
+    border-radius: 13px;
+    font-size: 13px;
+    &:hover{
+        background-color: $primaryColor;
+        color: $textColor1;
+    }
+}
+    
+}
+.carousel{
+h6{
+    color: $primaryColor;
+    font-size: 18px;
+    
+}
+.caption{
+    position: absolute;
+    top: 42%;
+    left: 5%; 
+    z-index: 7; 
+.seeMore-btn{
+        background-color: $primaryColor;
+        color: $textColor1;
+        border-radius: 0;
+        cursor: pointer;
+    }
+p{
+    color: $textColor1;
+    font-size: 26px;
+}
+
+}
+
+}
+// .trending{
+//   background:$backgroundColor1;
+// .trending-titles{
+// p{
+//      color:$primaryColor;
+//  }
+    
+// }    
+// }
+footer{
+    position: absolute;
+    z-index: 11;
+    top: 96%;
+    left: 35%;
+}
+
+@media (min-width:768px) and (max-width:992px){
+.carousel{
+h6{
+        
+        font-size: 15px;
+        
+    }
+.caption{
+.seeMore-btn{
+    font-size: 16px;
+    padding: 0.3rem 0.6rem;
+        
+    }
+p{
+     color: $textColor1;
+     font-size: 23px;
+        }    
+}    
+} 
+}
+@media (max-width:768px){
+.carousel{
+h6{
+        
+        font-size: 12px;
+        
+    }
+.caption{
+.seeMore-btn{
+        font-size: 14px;
+        padding: 0.4rem 0.7rem;
+            
+        }
+p{             
+font-size: 18px;
+}    
+        }    
+        }
+            }
+
+              

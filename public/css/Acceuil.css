@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden !important;
+}
+
+.overlay {
+  overflow-y: hidden;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0%;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+nav button {
+  background: #b70000;
+  font-size: 15px;
+}
+
+nav .login {
+  background: #b70000;
+  color: white;
+  border-radius: 13px;
+  font-size: 13px;
+}
+
+nav .register {
+  background: black;
+  border: 2px solid #b70000;
+  color: white;
+  border-radius: 13px;
+  font-size: 13px;
+}
+
+nav .register:hover {
+  background-color: #b70000;
+  color: white;
+}
+
+.carousel h6 {
+  color: #b70000;
+  font-size: 18px;
+}
+
+.carousel .caption {
+  position: absolute;
+  top: 42%;
+  left: 5%;
+  z-index: 7;
+}
+
+.carousel .caption .seeMore-btn {
+  background-color: #b70000;
+  color: white;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.carousel .caption p {
+  color: white;
+  font-size: 26px;
+}
+
+footer {
+  position: absolute;
+  z-index: 11;
+  top: 96%;
+  left: 35%;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .carousel h6 {
+    font-size: 15px;
+  }
+  .carousel .caption .seeMore-btn {
+    font-size: 16px;
+    padding: 0.3rem 0.6rem;
+  }
+  .carousel .caption p {
+    color: white;
+    font-size: 23px;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel h6 {
+    font-size: 12px;
+  }
+  .carousel .caption .seeMore-btn {
+    font-size: 14px;
+    padding: 0.4rem 0.7rem;
+  }
+  .carousel .caption p {
+    font-size: 18px;
+  }
+}
+/*# sourceMappingURL=Acceuil.css.map */
